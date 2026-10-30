@@ -1,13 +1,38 @@
-# Practical 3 - Calculator Using AWT
+# Practical 03: Calculator Using Java AWT
 
 ## Question
-Write a program to design a calculator using the AWT controls provided by Java.
+Write a Java program to design a calculator using the AWT controls provided by Java.
 
-## Language
-Java
+## Technologies Used
+- Java
+- IntelliJ IDEA
+- Java AWT
 
-## Program File
-`Calculator.java`
+## Concepts Used
+- Abstract Window Toolkit (AWT)
+- Frame
+- TextField
+- Button
+- GridLayout
+- ActionListener
+- Event Handling
+- Arithmetic Operations
 
-## Description
-This program designs a calculator using Java AWT controls. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division. It also handles division by zero.
+## How to Run (Using IntelliJ IDEA)
+
+1. Open IntelliJ IDEA.
+2. Open the Java project.
+3. Navigate to `Practical-3`.
+4. Open `Calculator.java`.
+5. Right-click inside the code editor.
+6. Select **Run 'Calculator.main()'**.
+7. The calculator window will appear.
+8. Enter numbers and select the required arithmetic operation.
+
+## Expected Result
+
+The program displays a calculator interface using Java AWT controls. It performs basic arithmetic operations such as addition, subtraction, multiplication and division.
+
+## Sample Output
+
+![AWT Calculator Output](out.png)
