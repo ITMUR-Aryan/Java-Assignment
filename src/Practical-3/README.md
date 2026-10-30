@@ -1,7 +1,7 @@
 # Practical 03: Calculator Using Java AWT
 
 ## Question
-Write a Java program to design a calculator using the AWT controls provided by Java.
+Write a program to design a calculator using the AWT controls provided by Java.
 
 ## Technologies Used
 - Java
@@ -9,7 +9,7 @@ Write a Java program to design a calculator using the AWT controls provided by J
 - Java AWT
 
 ## Concepts Used
-- Abstract Window Toolkit (AWT)
+- AWT
 - Frame
 - TextField
 - Button
@@ -24,10 +24,9 @@ Write a Java program to design a calculator using the AWT controls provided by J
 2. Open the Java project.
 3. Navigate to `Practical-3`.
 4. Open `Calculator.java`.
-5. Right-click inside the code editor.
+5. Right-click inside the editor.
 6. Select **Run 'Calculator.main()'**.
-7. The calculator window will appear.
-8. Enter numbers and select the required arithmetic operation.
+7. Use the calculator buttons to perform basic arithmetic operations.
 
 ## Expected Result
 
@@ -35,4 +34,4 @@ The program displays a calculator interface using Java AWT controls. It performs
 
 ## Sample Output
 
-![AWT Calculator Output](out.png)
+![Calculator Output](out.png)
