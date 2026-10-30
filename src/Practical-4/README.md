@@ -1,17 +1,52 @@
-# Practical 4 - Client-Server Communication Using TCP
+# Practical 04: Client-Server Communication Using TCP in Java
 
 ## Question
-Write a program for client-server communication using either UDP or TCP protocols. Use ServerSocket and Socket classes.
+Write a Java program to establish client-server communication using TCP with the help of `ServerSocket` and `Socket`.
 
-## Language
-Java
+## Technologies Used
+- Java
+- IntelliJ IDEA
+- TCP/IP
+- Java Networking
 
-## Protocol
-TCP (Transmission Control Protocol)
+## Concepts Used
+- Client-Server Architecture
+- TCP Protocol
+- Socket Programming
+- ServerSocket Class
+- Socket Class
+- InputStream
+- OutputStream
+- BufferedReader
+- PrintWriter
 
-## Program Files
-- `MyServer.java` - Server-side program
-- `MyClient.java` - Client-side program
+## How to Run (Using IntelliJ IDEA)
 
-## Description
-This program demonstrates client-server communication using Java TCP sockets. The client sends a message to the server, and the server displays the received message and sends a reply to the client.
+1. Open IntelliJ IDEA.
+2. Open the Java project.
+3. Navigate to `Practical-4`.
+4. Open `MyServer.java`.
+5. Run `MyServer.java` first.
+6. Keep the server running.
+7. Open `MyClient.java`.
+8. Run `MyClient.java`.
+9. Enter a message in the client console.
+10. Observe the server's response in the client console.
+
+## Expected Result
+
+The program establishes communication between a client and a server using TCP socket programming.
+
+The client sends a message to the server, and the server responds with:
+
+**"Hello Client, message received!"**
+
+## Sample Output
+
+### Server Output
+
+![Server Output](server.png)
+
+### Client Output
+
+![Client Output](client.png)
