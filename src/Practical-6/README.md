@@ -1,7 +1,7 @@
 # Practical 06: Remote Method Invocation (RMI) in Java
 
 ## Question
-Write a Java program to perform addition, subtraction and multiplication of two numbers using Remote Method Invocation (RMI).
+Create functions like multiply, addition, and subtraction respectively. Invoke these functions from remote system by using the concept of Remote Method Invocation in Java.
 
 ## Technologies Used
 - Java
@@ -38,14 +38,7 @@ Write a Java program to perform addition, subtraction and multiplication of two 
 
 ## Expected Result
 
-The program establishes communication between the RMI client and server.
-
-The client sends two numbers to the remote server, which performs:
-- Addition
-- Subtraction
-- Multiplication
-
-The calculated results are returned and displayed on the client side.
+The program establishes communication between the RMI client and server. The client invokes remote methods to perform addition, subtraction and multiplication of two numbers and displays the returned results.
 
 ## Sample Output
 
