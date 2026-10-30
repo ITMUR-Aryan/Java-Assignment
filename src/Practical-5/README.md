@@ -1,7 +1,7 @@
 # Practical 05: Notepad Application Using Java Swing
 
 ## Question
-Write a Java program to create a Notepad application using Java Swing with basic file handling and editing features.
+Write a program to create some of the features of Notepad. Use Swing for designing this application.
 
 ## Technologies Used
 - Java
@@ -27,26 +27,14 @@ Write a Java program to create a Notepad application using Java Swing with basic
 2. Open the Java project.
 3. Navigate to `Practical-5`.
 4. Open `Notepad.java`.
-5. Right-click inside the code editor.
+5. Right-click inside the editor.
 6. Select **Run 'Notepad.main()'**.
-7. The Notepad application window will appear.
-8. Use the File menu to create, open and save text files.
-9. Use the Edit menu for Cut, Copy and Paste operations.
+7. Use the File and Edit menus to access the Notepad features.
 
 ## Expected Result
 
-The program displays a Notepad application with a text area and File and Edit menus.
-
-It supports the following operations:
-- New
-- Open
-- Save
-- Save As
-- Exit
-- Cut
-- Copy
-- Paste
+The program displays a Notepad-like application using Java Swing. It provides basic features such as New, Open, Save, Save As, Exit, Cut, Copy and Paste.
 
 ## Sample Output
 
-![Notepad Application Output](out.png)
+![Notepad Output](out.png)
